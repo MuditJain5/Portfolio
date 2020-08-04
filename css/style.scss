@@ -1,0 +1,253 @@
+@font-face {
+    font-family: 'Bahnschrift Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bahnschrift Regular'), url('BAHNSCHRIFT.woff') format('woff');
+}
+
+body, html{
+    font-family: 'Bahnschrift Regular';
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: url(../img/back2.png) no-repeat center;
+    background-color: #f8f8f8;
+    background-size: cover;
+    min-height: 3600px;
+
+}
+
+header{
+
+    .red{
+        background: #f76564 !important;
+    }
+
+    .blue{
+        background: #6b68ef !important;
+    }
+
+    .white{
+        color: white !important;
+    }
+
+    .navbar{
+        padding: 0;
+    }
+    
+    .logo{
+        width: 40px;
+        height: 40px;
+    }
+
+    .name{
+        font-size: 24px;
+        line-height: 43px;
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .nav-link{
+        font-size: 18px;
+        text-decoration: none;
+        margin-left: 80px;
+
+        color: #FFFFFF !important;
+    }
+}
+
+.section1{
+
+    padding-top: 80px;
+
+    h1{
+        font-size: 64px;
+        margin-top: 150px;
+    }
+
+    h3{
+        font-size: 48px;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+
+        &:hover{
+            font-size: 21px;
+        }
+    }
+
+    button{
+        color: white;
+        font-size: 20px;
+        background: #F57170;
+
+        &:hover{
+            box-shadow: 3px 3px 5px rgba($color: #000000, $alpha: 0.5);
+        }
+    }
+
+    .vector{
+        margin-top: 180px;
+        width: 520px;
+        height: 283px;
+    }
+}
+
+.section2{
+
+    margin-top: 150px;
+
+    .about-vector{
+        margin-top: 160px;
+        margin-left: 40px;
+        height: 298px;
+        
+    }
+
+    .about-text{
+        margin-top: 150px;
+        color: white;
+        text-align: center;
+        
+        h1{
+            font-size: 56px;
+            margin-bottom: 0;
+        }
+        hr{
+            width: 150px;
+            height: 5px;
+            background: white !important;
+            opacity: 1;
+            margin-top: 0;
+        }
+
+        p{
+            font-weight: 300;
+            font-size: 24px;
+            margin-top: 60px;
+            width: 493px;
+        }
+    }
+}
+
+.section3{
+
+    margin-top: 320px;
+
+    h1{
+        font-size: 49px;
+        margin-bottom: 80px;
+    }
+
+    ul{
+        font-size: 20px;
+        justify-content: center;
+
+        li{
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+    }
+    
+    .frontend-vector{
+        margin-top: 85px;
+        margin-left: 10px;
+        width: 436px;
+        height: 254px;
+    }
+}
+
+.section4{
+    margin-top: 100px;
+
+    .react-vector{
+        margin-top: 120px;
+        margin-left: 130px;
+        width: 361px;
+        height: 203px;
+    }
+
+    h1{
+        font-size: 64px;
+        color: white;
+        margin-top: 180px;
+    }
+}
+
+.section5{
+    margin-top: 150px;
+
+    .web-design-vector{
+        margin-left: 130px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 64px;
+        color: white;
+        margin-bottom: 40px;
+    }
+
+    p{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .designer-vector{
+        margin-left: 50px;
+    }
+}
+
+.section6{
+    margin-top: 310px;
+    color: white;
+    text-align: center;
+
+    h1{
+        font-size: 56px;
+        margin-bottom: 0;
+    }
+    hr{
+        width: 150px;
+        height: 5px;
+        background: white !important;
+        opacity: 1;
+        margin-top: 0;
+        margin-bottom: 60px;
+    }
+
+    .card{
+        background: none;
+        border: 0;
+        width: 95%;
+
+        .card-body{
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        h5{
+            font-size: 20px;
+            text-align: left;
+            font-weight: 600;
+            
+            a{
+                text-decoration: none;
+                color: white;
+
+                &:hover{
+                    font-size: 20.1px;
+                    color: black;
+                }
+            }
+        }
+
+        p{
+            text-align: left;
+            font-weight: 300;
+            font-size: 15px;
+        }
+    }
+}
